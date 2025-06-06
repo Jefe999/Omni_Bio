@@ -1,0 +1,10 @@
+{
+  "model_type": "Logistic Regression",
+  "cv_auc_mean": 0.754,
+  "cv_auc_std": 0.059,
+  "final_auc": 1.0,
+  "n_features": 727,
+  "n_samples": 199,
+  "training_time_seconds": 5.23,
+  "cross_validation_folds": 5
+}

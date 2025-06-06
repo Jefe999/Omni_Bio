@@ -1,0 +1,33 @@
+{
+  "model_type": "logistic_regression",
+  "mean_cv_auc": 0.754400623885918,
+  "final_auc": 1.0,
+  "n_features": 726,
+  "top_5_features": [
+    {
+      "feature_idx": 48,
+      "coefficient": 0.6112986031125912,
+      "abs_coefficient": 0.6112986031125912
+    },
+    {
+      "feature_idx": 513,
+      "coefficient": -0.5911710763234215,
+      "abs_coefficient": 0.5911710763234215
+    },
+    {
+      "feature_idx": 296,
+      "coefficient": -0.5239500504224257,
+      "abs_coefficient": 0.5239500504224257
+    },
+    {
+      "feature_idx": 204,
+      "coefficient": 0.48314023669133727,
+      "abs_coefficient": 0.48314023669133727
+    },
+    {
+      "feature_idx": 411,
+      "coefficient": 0.4627707370673797,
+      "abs_coefficient": 0.4627707370673797
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+pathway_id,pathway_name,p_value,gene_count
+path_001,Lipid metabolism,0.001,15
+path_002,Glycolysis,0.05,8
+path_003,TCA cycle,0.1,12

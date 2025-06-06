@@ -1,0 +1,6 @@
+{
+  "study_name": "Real NAFLD Lipidomics Study",
+  "data_source": "Metabolomics Workbench ST002091",
+  "analysis_pipeline": "OmniBio MVP",
+  "real_data": true
+}

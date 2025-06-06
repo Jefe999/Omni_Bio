@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "title": "NAFLD Biomarker Discovery Report",
+    "project_name": "Real mwTab Data Analysis",
+    "dataset": "ST002091_AN003415.txt",
+    "author": "OmniBio Pipeline",
+    "date": "2025-06-04 13:08:42"
+  },
+  "data_summary": {
+    "total_samples": 199,
+    "total_features_initial": 577,
+    "total_features_final": 20,
+    "groups": {
+      "Control": 100,
+      "Case": 99
+    },
+    "missing_values_initial": "0",
+    "missing_values_final": "0"
+  },
+  "feature_extraction": {
+    "deduplication": {
+      "initial_features": 577,
+      "final_features": 81,
+      "reduction_percent": 85.96187175043327
+    },
+    "filtering": {
+      "initial_features": 81,
+      "final_features": 20,
+      "reduction_percent": 75.30864197530865
+    },
+    "imputation": {
+      "method": "median_per_cohort",
+      "missing_before": "0",
+      "missing_after": "0"
+    },
+    "scaling": {
+      "method": "pareto"
+    }
+  },
+  "statistical_analysis": {
+    "method": "independent t-test",
+    "correction": "Benjamini-Hochberg FDR",
+    "significant_features": [],
+    "total_features_tested": 20,
+    "significance_threshold": 0.05,
+    "fold_change_threshold": 1.0,
+    "top_features": []
+  },
+  "pathway_enrichment": {
+    "kegg_pathways": {},
+    "go_terms": {}
+  },
+  "qc_metrics": {
+    "data_completeness": 100.0,
+    "feature_reduction": 96.53379549393414,
+    "significant_features_percent": 0.0
+  }
+}

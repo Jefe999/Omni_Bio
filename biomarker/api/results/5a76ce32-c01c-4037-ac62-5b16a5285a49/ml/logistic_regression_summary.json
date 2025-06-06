@@ -1,0 +1,68 @@
+{
+  "model_type": "logistic_regression",
+  "mean_cv_auc": 0.85,
+  "final_auc": 0.8666666666666667,
+  "n_features": 10632,
+  "top_10_features": [
+    {
+      "feature_idx": 0,
+      "coefficient": -1.5960292550011972,
+      "abs_coefficient": 1.5960292550011972,
+      "feature_name": "chrom_TIC"
+    },
+    {
+      "feature_idx": 9708,
+      "coefficient": 1.1669152943205323e-15,
+      "abs_coefficient": 1.1669152943205323e-15,
+      "feature_name": "chrom_SRM_SIC_Q1_924_8_Q3_627_5_sample_60_period_1_experiment_2_transition_416"
+    },
+    {
+      "feature_idx": 9547,
+      "coefficient": 1.1669152943205323e-15,
+      "abs_coefficient": 1.1669152943205323e-15,
+      "feature_name": "chrom_SRM_SIC_Q1_870_8_Q3_571_5_sample_60_period_1_experiment_2_transition_255"
+    },
+    {
+      "feature_idx": 9525,
+      "coefficient": -1.1669152943205323e-15,
+      "abs_coefficient": 1.1669152943205323e-15,
+      "feature_name": "chrom_SRM_SIC_Q1_874_8_Q3_579_5_sample_60_period_1_experiment_2_transition_233"
+    },
+    {
+      "feature_idx": 8648,
+      "coefficient": -1.1669152943205323e-15,
+      "abs_coefficient": 1.1669152943205323e-15,
+      "feature_name": "chrom_SRM_SIC_Q1_796_7_Q3_523_4_sample_61_period_1_experiment_2_transition_40"
+    },
+    {
+      "feature_idx": 7675,
+      "coefficient": -1.1669152943205323e-15,
+      "abs_coefficient": 1.1669152943205323e-15,
+      "feature_name": "chrom_SRM_SIC_Q1_922_8_Q3_575_5_sample_63_period_1_experiment_2_transition_435"
+    },
+    {
+      "feature_idx": 7369,
+      "coefficient": -1.1669152943205323e-15,
+      "abs_coefficient": 1.1669152943205323e-15,
+      "feature_name": "chrom_SRM_SIC_Q1_834_8_Q3_561_5_sample_63_period_1_experiment_2_transition_129"
+    },
+    {
+      "feature_idx": 9592,
+      "coefficient": 1.1669152943205323e-15,
+      "abs_coefficient": 1.1669152943205323e-15,
+      "feature_name": "chrom_SRM_SIC_Q1_906_8_Q3_607_5_sample_60_period_1_experiment_2_transition_300"
+    },
+    {
+      "feature_idx": 5514,
+      "coefficient": -1.1669152943205323e-15,
+      "abs_coefficient": 1.1669152943205323e-15,
+      "feature_name": "chrom_SRM_SIC_Q1_900_8_Q3_575_5_sample_66_period_1_experiment_2_transition_326"
+    },
+    {
+      "feature_idx": 9033,
+      "coefficient": -1.1669152943205323e-15,
+      "abs_coefficient": 1.1669152943205323e-15,
+      "feature_name": "chrom_SRM_SIC_Q1_922_8_Q3_649_5_sample_61_period_1_experiment_2_transition_425"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "databases_tested": [
+    "kegg",
+    "go"
+  ],
+  "total_significant_pathways": 0,
+  "most_significant_pathways": [],
+  "enrichment_overview": {
+    "kegg": {
+      "tested": 4,
+      "significant": 0
+    },
+    "go": {
+      "tested": 4,
+      "significant": 0
+    }
+  }
+}

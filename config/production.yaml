@@ -1,0 +1,29 @@
+# Production Environment Configuration
+debug: false
+environment: "production"
+
+# API Configuration  
+api_reload: false
+
+# Security Configuration (will use environment variables)
+security:
+  secret_key: null  # SECURITY_SECRET_KEY env var required
+  allowed_origins: 
+    - "https://omnibio.yourdomain.com"
+    - "https://api.omnibio.yourdomain.com"
+  
+# Database Configuration (will use environment variables)
+database:
+  host: null  # DB_HOST env var required
+  name: "omnibio_prod"
+
+# Storage Configuration
+storage:
+  use_s3: true
+  upload_dir: "/app/uploads"
+  results_dir: "/app/results"
+  packages_dir: "/app/packages"
+  temp_dir: "/tmp"
+
+# Logging Configuration
+log_level: "WARNING" 

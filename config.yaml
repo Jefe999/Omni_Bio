@@ -1,0 +1,60 @@
+# OmniBio Configuration File
+# This file contains default configuration for all environments
+
+app_name: "OmniBio Biomarker Discovery"
+app_version: "1.0.0"
+debug: true
+environment: "development"
+
+# API Configuration
+api_host: "0.0.0.0"
+api_port: 8000
+api_reload: true
+
+# Database Configuration (will be overridden by environment variables)
+database:
+  host: "localhost"
+  port: 5433
+  name: "omnibio"
+  user: "omnibio"
+  password: "omnibio123"
+
+# Storage Configuration
+storage:
+  upload_dir: "uploads"
+  results_dir: "results"
+  packages_dir: "packages"
+  temp_dir: "temp"
+  max_file_size_mb: 500
+  
+  # S3/MinIO settings (for Day 9)
+  use_s3: false
+  s3_endpoint: null
+  s3_access_key: null
+  s3_secret_key: null
+  s3_bucket: "omnibio"
+
+# Processing Configuration
+processing:
+  default_mass_error_ppm: 5.0
+  default_rt_tolerance_min: 0.1
+  max_features: 50000
+  default_p_threshold: 0.05
+  default_fc_threshold: 1.0
+  fdr_method: "fdr_bh"
+  default_cv_folds: 5
+  random_state: 42
+
+# Security Configuration
+security:
+  secret_key: "dev-secret-key-change-in-production"
+  api_key: null
+  jwt_algorithm: "HS256"
+  jwt_expire_minutes: 1440
+  allowed_origins: ["*"]
+  allowed_methods: ["*"]
+  allowed_headers: ["*"]
+
+# Logging Configuration
+log_level: "INFO"
+log_format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s" 

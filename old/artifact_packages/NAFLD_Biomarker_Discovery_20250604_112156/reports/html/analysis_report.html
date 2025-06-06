@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Biomarker Discovery Analysis Report - NAFLD_Biomarker_Discovery</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background-color: #f5f5f5; }
+        .container { max-width: 1200px; margin: 0 auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h1 { color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; }
+        h2 { color: #34495e; margin-top: 30px; }
+        .metadata { background: #ecf0f1; padding: 15px; border-radius: 5px; margin: 20px 0; }
+        .artifact-section { margin: 20px 0; padding: 15px; border-left: 4px solid #3498db; background: #f8f9fa; }
+        .summary-stats { display: flex; flex-wrap: wrap; gap: 20px; margin: 20px 0; }
+        .stat-box { background: #3498db; color: white; padding: 15px; border-radius: 5px; text-align: center; min-width: 150px; }
+        .file-list { max-height: 200px; overflow-y: auto; background: white; padding: 10px; border: 1px solid #ddd; border-radius: 3px; }
+        ul { margin: 0; padding-left: 20px; }
+        .timestamp { color: #7f8c8d; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔬 Biomarker Discovery Analysis Report</h1>
+        
+        <div class="metadata">
+            <h2>📋 Project Information</h2>
+            <p><strong>Project Name:</strong> NAFLD_Biomarker_Discovery</p>
+            <p><strong>Package Name:</strong> NAFLD_Biomarker_Discovery_20250604_112156</p>
+            <p><strong>Generated:</strong> 2025-06-04T11:21:56.778547</p>
+        </div>
+        
+        <h2>📊 Analysis Summary</h2>
+        <div class="summary-stats">
+<div class="stat-box"><strong>199</strong><br>Total Samples</div><div class="stat-box"><strong>727</strong><br>Total Features</div><div class="stat-box"><strong>3</strong><br>Significant Features</div><div class="stat-box"><strong>0.754</strong><br>Model Auc</div><div class="stat-box"><strong>2.5</strong><br>Processing Time Minutes</div></div>
+        <h2>📦 Included Artifacts</h2>
+
+        <div class="artifact-section">
+            <h3>Quality Control Analysis</h3>
+            <p><strong>Files included:</strong> 4</p>
+<div class="file-list"><ul><li>plots/qc_summary.png</li><li>plots/tic_bpc_sample2.png</li><li>plots/tic_bpc_sample1.png</li><li>data/pca_results.csv</li></ul></div><p class="timestamp">Added: 2025-06-04T11:21:56.775063</p></div>
+        <div class="artifact-section">
+            <h3>Statistical Analysis</h3>
+            <p><strong>Files included:</strong> 3</p>
+<div class="file-list"><ul><li>plots/volcano_plot.png</li><li>results/statistical_results.csv</li><li>results/pathway_analysis.csv</li></ul></div><p class="timestamp">Added: 2025-06-04T11:21:56.775962</p></div>
+        <div class="artifact-section">
+            <h3>Machine Learning Models</h3>
+            <p><strong>Files included:</strong> 4</p>
+<div class="file-list"><ul><li>trained_models/logistic_regression_model.pkl</li><li>feature_importance/feature_importance.csv</li><li>model_summary.json</li><li>evaluation/roc_curve.png</li></ul></div><p class="timestamp">Added: 2025-06-04T11:21:56.776735</p></div>
+        <div class="artifact-section">
+            <h3>Data Files</h3>
+            <p><strong>Files included:</strong> 3</p>
+<div class="file-list"><ul><li>raw/ST002091_AN003415.txt</li><li>processed/statistical_results.csv</li><li>metadata/pca_results.csv</li></ul></div><p class="timestamp">Added: 2025-06-04T11:21:56.778380</p></div>
+        <h2>📁 Package Structure</h2>
+        <div class="file-list">
+            <ul>
+<li><strong>qc_analysis/data/</strong> (1 files)</li><li><strong>qc_analysis/plots/</strong> (3 files)</li><li><strong>data_files/processed/</strong> (1 files)</li><li><strong>data_files/metadata/</strong> (2 files)</li><li><strong>data_files/raw/</strong> (1 files)</li><li><strong>ml_models/</strong> (1 files)</li><li><strong>ml_models/trained_models/</strong> (1 files)</li><li><strong>ml_models/feature_importance/</strong> (1 files)</li><li><strong>ml_models/evaluation/</strong> (1 files)</li><li><strong>statistical_analysis/results/</strong> (2 files)</li><li><strong>statistical_analysis/plots/</strong> (1 files)</li>
+            </ul>
+        </div>
+        
+        <h2>📖 Usage Instructions</h2>
+        <div class="artifact-section">
+            <p>This package contains all artifacts from your biomarker discovery analysis:</p>
+            <ul>
+                <li><strong>qc_analysis/</strong> - Quality control plots and data</li>
+                <li><strong>statistical_analysis/</strong> - Statistical test results and volcano plots</li>
+                <li><strong>ml_models/</strong> - Trained machine learning models and evaluation</li>
+                <li><strong>data_files/</strong> - Processed data matrices and metadata</li>
+                <li><strong>reports/</strong> - Summary reports and documentation</li>
+            </ul>
+            <p>See the README.md file for detailed information about each artifact.</p>
+        </div>
+        
+        <footer style="margin-top: 40px; text-align: center; color: #7f8c8d; border-top: 1px solid #ddd; padding-top: 20px;">
+            <p>Generated by OmniBio Biomarker Discovery Pipeline</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+{
+  "generation_info": {
+    "title": "NAFLD Biomarker Discovery Analysis Report",
+    "project_name": "NAFLD Metabolomics Study",
+    "author": "Research Team",
+    "institution": "University Medical Center",
+    "date": "2025-06-04",
+    "generation_time": "2025-06-04 13:08:53",
+    "technical_level": "standard"
+  },
+  "analysis_summary": {
+    "feature_extraction": {
+      "initial_features": 164,
+      "final_features": 61,
+      "samples": 40,
+      "reduction_percentage": 62.80487804878049,
+      "pipeline_steps": [],
+      "quality_metrics": {}
+    },
+    "statistical_analysis": {
+      "significant_features_count": 35,
+      "total_features_tested": 61
+    },
+    "pathway_analysis": {
+      "total_significant_pathways": 0,
+      "databases_tested": [
+        "kegg",
+        "go"
+      ]
+    }
+  }
+}

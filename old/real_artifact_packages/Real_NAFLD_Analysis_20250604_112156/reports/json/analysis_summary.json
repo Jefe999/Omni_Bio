@@ -1,0 +1,42 @@
+{
+  "project_name": "Real_NAFLD_Analysis",
+  "package_name": "Real_NAFLD_Analysis_20250604_112156",
+  "generated_at": "2025-06-04T11:21:56.959458",
+  "analysis_summary": {
+    "data_type": "Real LC-MS Lipidomics Data",
+    "pipeline_version": "MVP_v1.0"
+  },
+  "artifacts_included": {
+    "qc_analysis": 0,
+    "statistical_analysis": 0,
+    "ml_models": 0,
+    "data_files": 1,
+    "metadata": 0,
+    "summary": 0
+  },
+  "package_structure": {
+    "root": [],
+    "documentation": [],
+    "qc_analysis": [],
+    "qc_analysis/data": [],
+    "qc_analysis/plots": [],
+    "data_files": [],
+    "data_files/processed": [],
+    "data_files/metadata": [
+      "custom_metadata.json"
+    ],
+    "data_files/raw": [
+      "ST002091_AN003415.txt"
+    ],
+    "ml_models": [],
+    "ml_models/trained_models": [],
+    "ml_models/feature_importance": [],
+    "ml_models/evaluation": [],
+    "statistical_analysis": [],
+    "statistical_analysis/results": [],
+    "statistical_analysis/plots": [],
+    "reports": [],
+    "reports/html": [],
+    "reports/json": []
+  }
+}

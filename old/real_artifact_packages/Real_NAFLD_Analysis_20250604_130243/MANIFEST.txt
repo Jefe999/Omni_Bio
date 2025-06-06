@@ -1,0 +1,31 @@
+BIOMARKER DISCOVERY PACKAGE MANIFEST
+=====================================
+
+Project: Real_NAFLD_Analysis
+Package: Real_NAFLD_Analysis_20250604_130243
+Generated: 2025-06-04T13:02:43.414946
+
+CONTENTS:
+---------
+  documentation/
+  qc_analysis/
+    data/
+    plots/
+  data_files/
+    processed/
+    metadata/
+      custom_metadata.json
+    raw/
+      ST002091_AN003415.txt
+  ml_models/
+    trained_models/
+    feature_importance/
+    evaluation/
+  statistical_analysis/
+    results/
+    plots/
+  reports/
+    html/
+      analysis_report.html
+    json/
+      analysis_summary.json

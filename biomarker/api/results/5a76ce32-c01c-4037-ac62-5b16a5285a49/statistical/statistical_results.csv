@@ -1,0 +1,2 @@
+feature,group1_mean,group2_mean,group1_std,group2_std,fold_change,statistic,p_value,neg_log10_p,significant,n_group1,n_group2,p_adjusted,significant_adj
+chrom_TIC,-0.5156912168096784,0.4641220951287073,0.0,0.5164069579130582,-0.9798133119383857,-6.0,0.0002024993220676408,3.693576426388945,True,9,10,0.0002024993220676408,True

@@ -1,0 +1,1064 @@
+{
+  "none_logFalse": {
+    "analysis_id": "9b1b0c70-8f5b-4baa-a2e6-d2085f060e0b",
+    "status": {
+      "analysis_id": "9b1b0c70-8f5b-4baa-a2e6-d2085f060e0b",
+      "status": "completed",
+      "progress": 1.0,
+      "message": "Analysis completed successfully",
+      "started_at": "2025-06-04T15:08:08.860669",
+      "completed_at": "2025-06-04T15:08:11.298851",
+      "results": {
+        "data_info": {
+          "n_samples": 199,
+          "n_features": 727,
+          "file_ids": [
+            "58635e3b-1fda-4f97-9945-6c3179ab4405.txt"
+          ],
+          "metadata": {
+            "file_type": "mwtab",
+            "source_file": "uploads/58635e3b-1fda-4f97-9945-6c3179ab4405.txt",
+            "n_samples": 199,
+            "n_features": 727,
+            "study_id": "unknown",
+            "analysis_id": "unknown"
+          }
+        },
+        "statistical": {
+          "results": {
+            "summary": {
+              "analysis_type": "ttest",
+              "n_features_tested": 682,
+              "n_significant_raw": 238,
+              "n_significant_adj": 3,
+              "alpha": 0.05,
+              "fc_threshold": 1.0,
+              "top_features": [
+                {
+                  "feature": "LPC(17:0)",
+                  "p_value": 2.2356184393223465e-07,
+                  "fold_change": -0.30894013841483886
+                },
+                {
+                  "feature": "CE(17:0)",
+                  "p_value": 2.8086254470105203e-05,
+                  "fold_change": -0.24927450595707507
+                },
+                {
+                  "feature": "SM(20:1)",
+                  "p_value": 0.00010685140651579533,
+                  "fold_change": -0.16682566662160117
+                },
+                {
+                  "feature": "DAG(16:0/16:0)",
+                  "p_value": 0.0002996586840362893,
+                  "fold_change": 0.5160781814731799
+                },
+                {
+                  "feature": "LPC(18:1)",
+                  "p_value": 0.00044096721622982464,
+                  "fold_change": -0.18968865246568803
+                },
+                {
+                  "feature": "CE(20:0)",
+                  "p_value": 0.0007257961690197561,
+                  "fold_change": -0.5410408080463053
+                },
+                {
+                  "feature": "LPC(15:0)",
+                  "p_value": 0.0007279770202467674,
+                  "fold_change": -0.2097032360393444
+                },
+                {
+                  "feature": "CE(15:0)",
+                  "p_value": 0.0008518138041134615,
+                  "fold_change": -0.21280185641615904
+                },
+                {
+                  "feature": "CE(22:2)",
+                  "p_value": 0.0009235766027430911,
+                  "fold_change": -0.485112706422915
+                },
+                {
+                  "feature": "CE(22:6)",
+                  "p_value": 0.000994147931538752,
+                  "fold_change": -0.21526313675779823
+                }
+              ]
+            },
+            "files": {
+              "results_csv": "results/9b1b0c70-8f5b-4baa-a2e6-d2085f060e0b/statistical/statistical_results.csv",
+              "volcano_png": "results/9b1b0c70-8f5b-4baa-a2e6-d2085f060e0b/statistical/volcano_plot.png",
+              "pathway_stub": "results/9b1b0c70-8f5b-4baa-a2e6-d2085f060e0b/statistical/pathway_analysis_stub.json"
+            },
+            "pathway_results": {
+              "status": "stub_implementation",
+              "todo_items": [
+                "Implement mummichog pathway analysis",
+                "Add pathway database connections",
+                "Generate enrichment visualizations",
+                "Export pathway results"
+              ],
+              "input_features": 682,
+              "significant_features": 238,
+              "timestamp": "2025-06-04T15:08:11.291669"
+            },
+            "n_features_tested": 682,
+            "n_significant": 238,
+            "top_significant_features": [
+              {
+                "feature": "LPC(17:0)",
+                "p_value": 2.2356184393223465e-07,
+                "fold_change": -0.30894013841483886,
+                "significant": true
+              },
+              {
+                "feature": "CE(17:0)",
+                "p_value": 2.8086254470105203e-05,
+                "fold_change": -0.24927450595707507,
+                "significant": true
+              },
+              {
+                "feature": "SM(20:1)",
+                "p_value": 0.00010685140651579533,
+                "fold_change": -0.16682566662160117,
+                "significant": true
+              },
+              {
+                "feature": "DAG(16:0/16:0)",
+                "p_value": 0.0002996586840362893,
+                "fold_change": 0.5160781814731799,
+                "significant": true
+              },
+              {
+                "feature": "LPC(18:1)",
+                "p_value": 0.00044096721622982464,
+                "fold_change": -0.18968865246568803,
+                "significant": true
+              },
+              {
+                "feature": "CE(20:0)",
+                "p_value": 0.0007257961690197561,
+                "fold_change": -0.5410408080463053,
+                "significant": true
+              },
+              {
+                "feature": "LPC(15:0)",
+                "p_value": 0.0007279770202467674,
+                "fold_change": -0.2097032360393444,
+                "significant": true
+              },
+              {
+                "feature": "CE(15:0)",
+                "p_value": 0.0008518138041134615,
+                "fold_change": -0.21280185641615904,
+                "significant": true
+              },
+              {
+                "feature": "CE(22:2)",
+                "p_value": 0.0009235766027430911,
+                "fold_change": -0.485112706422915,
+                "significant": true
+              },
+              {
+                "feature": "CE(22:6)",
+                "p_value": 0.000994147931538752,
+                "fold_change": -0.21526313675779823,
+                "significant": true
+              }
+            ]
+          },
+          "completed": true
+        }
+      },
+      "error": null
+    },
+    "scaling_method": "none",
+    "log_transform": false
+  },
+  "pareto_logFalse": {
+    "analysis_id": "021685e1-ca26-43ad-85c9-634a668e893b",
+    "status": {
+      "analysis_id": "021685e1-ca26-43ad-85c9-634a668e893b",
+      "status": "completed",
+      "progress": 1.0,
+      "message": "Analysis completed successfully",
+      "started_at": "2025-06-04T15:08:13.313793",
+      "completed_at": "2025-06-04T15:08:15.489271",
+      "results": {
+        "data_info": {
+          "n_samples": 199,
+          "n_features": 727,
+          "file_ids": [
+            "58635e3b-1fda-4f97-9945-6c3179ab4405.txt"
+          ],
+          "metadata": {
+            "file_type": "mwtab",
+            "source_file": "uploads/58635e3b-1fda-4f97-9945-6c3179ab4405.txt",
+            "n_samples": 199,
+            "n_features": 727,
+            "study_id": "unknown",
+            "analysis_id": "unknown"
+          }
+        },
+        "statistical": {
+          "results": {
+            "summary": {
+              "analysis_type": "ttest",
+              "n_features_tested": 352,
+              "n_significant_raw": 151,
+              "n_significant_adj": 15,
+              "alpha": 0.05,
+              "fc_threshold": 1.0,
+              "top_features": [
+                {
+                  "feature": "LPC(17:0)",
+                  "p_value": 2.2356184393223587e-07,
+                  "fold_change": null
+                },
+                {
+                  "feature": "CE(17:0)",
+                  "p_value": 2.8086254470105996e-05,
+                  "fold_change": null
+                },
+                {
+                  "feature": "SM(20:1)",
+                  "p_value": 0.00010685140651579613,
+                  "fold_change": null
+                },
+                {
+                  "feature": "LPC(18:1)",
+                  "p_value": 0.00044096721622983087,
+                  "fold_change": null
+                },
+                {
+                  "feature": "CE(20:0)",
+                  "p_value": 0.0007257961690197585,
+                  "fold_change": null
+                },
+                {
+                  "feature": "CE(15:0)",
+                  "p_value": 0.000851813804113448,
+                  "fold_change": null
+                },
+                {
+                  "feature": "CE(22:6)",
+                  "p_value": 0.0009941479315387343,
+                  "fold_change": null
+                },
+                {
+                  "feature": "TAG52:4-FA20:4",
+                  "p_value": 0.0010267317609517863,
+                  "fold_change": null
+                },
+                {
+                  "feature": "TAG54:4-FA20:4",
+                  "p_value": 0.0011358108960781202,
+                  "fold_change": null
+                },
+                {
+                  "feature": "SM(26:0)",
+                  "p_value": 0.0013012935385291538,
+                  "fold_change": null
+                }
+              ]
+            },
+            "files": {
+              "results_csv": "results/021685e1-ca26-43ad-85c9-634a668e893b/statistical/statistical_results.csv",
+              "volcano_png": "results/021685e1-ca26-43ad-85c9-634a668e893b/statistical/volcano_plot.png",
+              "pathway_stub": "results/021685e1-ca26-43ad-85c9-634a668e893b/statistical/pathway_analysis_stub.json"
+            },
+            "pathway_results": {
+              "status": "stub_implementation",
+              "todo_items": [
+                "Implement mummichog pathway analysis",
+                "Add pathway database connections",
+                "Generate enrichment visualizations",
+                "Export pathway results"
+              ],
+              "input_features": 352,
+              "significant_features": 151,
+              "timestamp": "2025-06-04T15:08:15.487049"
+            },
+            "n_features_tested": 352,
+            "n_significant": 151,
+            "top_significant_features": [
+              {
+                "feature": "LPC(17:0)",
+                "p_value": 2.2356184393223587e-07,
+                "fold_change": null,
+                "significant": true
+              },
+              {
+                "feature": "CE(17:0)",
+                "p_value": 2.8086254470105996e-05,
+                "fold_change": null,
+                "significant": true
+              },
+              {
+                "feature": "SM(20:1)",
+                "p_value": 0.00010685140651579613,
+                "fold_change": null,
+                "significant": true
+              },
+              {
+                "feature": "LPC(18:1)",
+                "p_value": 0.00044096721622983087,
+                "fold_change": null,
+                "significant": true
+              },
+              {
+                "feature": "CE(20:0)",
+                "p_value": 0.0007257961690197585,
+                "fold_change": null,
+                "significant": true
+              },
+              {
+                "feature": "CE(15:0)",
+                "p_value": 0.000851813804113448,
+                "fold_change": null,
+                "significant": true
+              },
+              {
+                "feature": "CE(22:6)",
+                "p_value": 0.0009941479315387343,
+                "fold_change": null,
+                "significant": true
+              },
+              {
+                "feature": "TAG52:4-FA20:4",
+                "p_value": 0.0010267317609517863,
+                "fold_change": null,
+                "significant": true
+              },
+              {
+                "feature": "TAG54:4-FA20:4",
+                "p_value": 0.0011358108960781202,
+                "fold_change": null,
+                "significant": true
+              },
+              {
+                "feature": "SM(26:0)",
+                "p_value": 0.0013012935385291538,
+                "fold_change": null,
+                "significant": true
+              }
+            ]
+          },
+          "completed": true
+        }
+      },
+      "error": null
+    },
+    "scaling_method": "pareto",
+    "log_transform": false
+  },
+  "standard_logFalse": {
+    "analysis_id": "efa006b8-d7f1-4adb-8e6b-68bd20bc5e48",
+    "status": {
+      "analysis_id": "efa006b8-d7f1-4adb-8e6b-68bd20bc5e48",
+      "status": "completed",
+      "progress": 1.0,
+      "message": "Analysis completed successfully",
+      "started_at": "2025-06-04T15:08:17.499231",
+      "completed_at": "2025-06-04T15:08:20.143528",
+      "results": {
+        "data_info": {
+          "n_samples": 199,
+          "n_features": 727,
+          "file_ids": [
+            "58635e3b-1fda-4f97-9945-6c3179ab4405.txt"
+          ],
+          "metadata": {
+            "file_type": "mwtab",
+            "source_file": "uploads/58635e3b-1fda-4f97-9945-6c3179ab4405.txt",
+            "n_samples": 199,
+            "n_features": 727,
+            "study_id": "unknown",
+            "analysis_id": "unknown"
+          }
+        },
+        "statistical": {
+          "results": {
+            "summary": {
+              "analysis_type": "ttest",
+              "n_features_tested": 682,
+              "n_significant_raw": 238,
+              "n_significant_adj": 3,
+              "alpha": 0.05,
+              "fc_threshold": 1.0,
+              "top_features": [
+                {
+                  "feature": "LPC(17:0)",
+                  "p_value": 2.2356184393223587e-07,
+                  "fold_change": null
+                },
+                {
+                  "feature": "CE(17:0)",
+                  "p_value": 2.8086254470105996e-05,
+                  "fold_change": null
+                },
+                {
+                  "feature": "SM(20:1)",
+                  "p_value": 0.00010685140651579584,
+                  "fold_change": null
+                },
+                {
+                  "feature": "DAG(16:0/16:0)",
+                  "p_value": 0.000299658684036287,
+                  "fold_change": null
+                },
+                {
+                  "feature": "LPC(18:1)",
+                  "p_value": 0.0004409672162298311,
+                  "fold_change": null
+                },
+                {
+                  "feature": "CE(20:0)",
+                  "p_value": 0.0007257961690197585,
+                  "fold_change": null
+                },
+                {
+                  "feature": "LPC(15:0)",
+                  "p_value": 0.0007279770202467818,
+                  "fold_change": null
+                },
+                {
+                  "feature": "CE(15:0)",
+                  "p_value": 0.0008518138041134476,
+                  "fold_change": null
+                },
+                {
+                  "feature": "CE(22:2)",
+                  "p_value": 0.0009235766027430888,
+                  "fold_change": null
+                },
+                {
+                  "feature": "CE(22:6)",
+                  "p_value": 0.0009941479315387343,
+                  "fold_change": null
+                }
+              ]
+            },
+            "files": {
+              "results_csv": "results/efa006b8-d7f1-4adb-8e6b-68bd20bc5e48/statistical/statistical_results.csv",
+              "volcano_png": "results/efa006b8-d7f1-4adb-8e6b-68bd20bc5e48/statistical/volcano_plot.png",
+              "pathway_stub": "results/efa006b8-d7f1-4adb-8e6b-68bd20bc5e48/statistical/pathway_analysis_stub.json"
+            },
+            "pathway_results": {
+              "status": "stub_implementation",
+              "todo_items": [
+                "Implement mummichog pathway analysis",
+                "Add pathway database connections",
+                "Generate enrichment visualizations",
+                "Export pathway results"
+              ],
+              "input_features": 682,
+              "significant_features": 238,
+              "timestamp": "2025-06-04T15:08:20.141505"
+            },
+            "n_features_tested": 682,
+            "n_significant": 238,
+            "top_significant_features": [
+              {
+                "feature": "LPC(17:0)",
+                "p_value": 2.2356184393223587e-07,
+                "fold_change": null,
+                "significant": true
+              },
+              {
+                "feature": "CE(17:0)",
+                "p_value": 2.8086254470105996e-05,
+                "fold_change": null,
+                "significant": true
+              },
+              {
+                "feature": "SM(20:1)",
+                "p_value": 0.00010685140651579584,
+                "fold_change": null,
+                "significant": true
+              },
+              {
+                "feature": "DAG(16:0/16:0)",
+                "p_value": 0.000299658684036287,
+                "fold_change": null,
+                "significant": true
+              },
+              {
+                "feature": "LPC(18:1)",
+                "p_value": 0.0004409672162298311,
+                "fold_change": null,
+                "significant": true
+              },
+              {
+                "feature": "CE(20:0)",
+                "p_value": 0.0007257961690197585,
+                "fold_change": null,
+                "significant": true
+              },
+              {
+                "feature": "LPC(15:0)",
+                "p_value": 0.0007279770202467818,
+                "fold_change": null,
+                "significant": true
+              },
+              {
+                "feature": "CE(15:0)",
+                "p_value": 0.0008518138041134476,
+                "fold_change": null,
+                "significant": true
+              },
+              {
+                "feature": "CE(22:2)",
+                "p_value": 0.0009235766027430888,
+                "fold_change": null,
+                "significant": true
+              },
+              {
+                "feature": "CE(22:6)",
+                "p_value": 0.0009941479315387343,
+                "fold_change": null,
+                "significant": true
+              }
+            ]
+          },
+          "completed": true
+        }
+      },
+      "error": null
+    },
+    "scaling_method": "standard",
+    "log_transform": false
+  },
+  "pareto_logTrue": {
+    "analysis_id": "88db41bf-bc79-43af-9115-a94693d3e34d",
+    "status": {
+      "analysis_id": "88db41bf-bc79-43af-9115-a94693d3e34d",
+      "status": "completed",
+      "progress": 1.0,
+      "message": "Analysis completed successfully",
+      "started_at": "2025-06-04T15:08:22.158714",
+      "completed_at": "2025-06-04T15:08:24.413327",
+      "results": {
+        "data_info": {
+          "n_samples": 199,
+          "n_features": 727,
+          "file_ids": [
+            "58635e3b-1fda-4f97-9945-6c3179ab4405.txt"
+          ],
+          "metadata": {
+            "file_type": "mwtab",
+            "source_file": "uploads/58635e3b-1fda-4f97-9945-6c3179ab4405.txt",
+            "n_samples": 199,
+            "n_features": 727,
+            "study_id": "unknown",
+            "analysis_id": "unknown"
+          }
+        },
+        "statistical": {
+          "results": {
+            "summary": {
+              "analysis_type": "ttest",
+              "n_features_tested": 352,
+              "n_significant_raw": 140,
+              "n_significant_adj": 90,
+              "alpha": 0.05,
+              "fc_threshold": 1.0,
+              "top_features": [
+                {
+                  "feature": "LPC(17:0)",
+                  "p_value": 1.3147335583208686e-07,
+                  "fold_change": null
+                },
+                {
+                  "feature": "TAG54:6-FA22:6",
+                  "p_value": 2.613665330961657e-06,
+                  "fold_change": null
+                },
+                {
+                  "feature": "TAG48:0-FA16:0",
+                  "p_value": 3.2815739966799144e-06,
+                  "fold_change": null
+                },
+                {
+                  "feature": "TAG50:0-FA18:0",
+                  "p_value": 1.191814243028137e-05,
+                  "fold_change": null
+                },
+                {
+                  "feature": "TAG46:0-FA16:0",
+                  "p_value": 1.7552476156767407e-05,
+                  "fold_change": null
+                },
+                {
+                  "feature": "TAG50:0-FA16:0",
+                  "p_value": 1.7824692115434935e-05,
+                  "fold_change": null
+                },
+                {
+                  "feature": "TAG54:5-FA22:5",
+                  "p_value": 1.790572297147541e-05,
+                  "fold_change": null
+                },
+                {
+                  "feature": "TAG52:2-FA20:2",
+                  "p_value": 1.9574371726342296e-05,
+                  "fold_change": null
+                },
+                {
+                  "feature": "TAG52:4-FA20:4",
+                  "p_value": 2.160301031938589e-05,
+                  "fold_change": null
+                },
+                {
+                  "feature": "TAG52:3-FA20:3",
+                  "p_value": 2.2988499521943046e-05,
+                  "fold_change": null
+                }
+              ]
+            },
+            "files": {
+              "results_csv": "results/88db41bf-bc79-43af-9115-a94693d3e34d/statistical/statistical_results.csv",
+              "volcano_png": "results/88db41bf-bc79-43af-9115-a94693d3e34d/statistical/volcano_plot.png",
+              "pathway_stub": "results/88db41bf-bc79-43af-9115-a94693d3e34d/statistical/pathway_analysis_stub.json"
+            },
+            "pathway_results": {
+              "status": "stub_implementation",
+              "todo_items": [
+                "Implement mummichog pathway analysis",
+                "Add pathway database connections",
+                "Generate enrichment visualizations",
+                "Export pathway results"
+              ],
+              "input_features": 352,
+              "significant_features": 140,
+              "timestamp": "2025-06-04T15:08:24.411564"
+            },
+            "n_features_tested": 352,
+            "n_significant": 140,
+            "top_significant_features": [
+              {
+                "feature": "LPC(17:0)",
+                "p_value": 1.3147335583208686e-07,
+                "fold_change": null,
+                "significant": true
+              },
+              {
+                "feature": "TAG54:6-FA22:6",
+                "p_value": 2.613665330961657e-06,
+                "fold_change": null,
+                "significant": true
+              },
+              {
+                "feature": "TAG48:0-FA16:0",
+                "p_value": 3.2815739966799144e-06,
+                "fold_change": null,
+                "significant": true
+              },
+              {
+                "feature": "TAG50:0-FA18:0",
+                "p_value": 1.191814243028137e-05,
+                "fold_change": null,
+                "significant": true
+              },
+              {
+                "feature": "TAG46:0-FA16:0",
+                "p_value": 1.7552476156767407e-05,
+                "fold_change": null,
+                "significant": true
+              },
+              {
+                "feature": "TAG50:0-FA16:0",
+                "p_value": 1.7824692115434935e-05,
+                "fold_change": null,
+                "significant": true
+              },
+              {
+                "feature": "TAG54:5-FA22:5",
+                "p_value": 1.790572297147541e-05,
+                "fold_change": null,
+                "significant": true
+              },
+              {
+                "feature": "TAG52:2-FA20:2",
+                "p_value": 1.9574371726342296e-05,
+                "fold_change": null,
+                "significant": true
+              },
+              {
+                "feature": "TAG52:4-FA20:4",
+                "p_value": 2.160301031938589e-05,
+                "fold_change": null,
+                "significant": true
+              },
+              {
+                "feature": "TAG52:3-FA20:3",
+                "p_value": 2.2988499521943046e-05,
+                "fold_change": null,
+                "significant": true
+              }
+            ]
+          },
+          "completed": true
+        }
+      },
+      "error": null
+    },
+    "scaling_method": "pareto",
+    "log_transform": true
+  },
+  "robust_logFalse": {
+    "analysis_id": "b2dc1eb8-a90d-4b4c-b7b1-2dcd7449d9c1",
+    "status": {
+      "analysis_id": "b2dc1eb8-a90d-4b4c-b7b1-2dcd7449d9c1",
+      "status": "completed",
+      "progress": 1.0,
+      "message": "Analysis completed successfully",
+      "started_at": "2025-06-04T15:08:26.451820",
+      "completed_at": "2025-06-04T15:08:29.237039",
+      "results": {
+        "data_info": {
+          "n_samples": 199,
+          "n_features": 727,
+          "file_ids": [
+            "58635e3b-1fda-4f97-9945-6c3179ab4405.txt"
+          ],
+          "metadata": {
+            "file_type": "mwtab",
+            "source_file": "uploads/58635e3b-1fda-4f97-9945-6c3179ab4405.txt",
+            "n_samples": 199,
+            "n_features": 727,
+            "study_id": "unknown",
+            "analysis_id": "unknown"
+          }
+        },
+        "statistical": {
+          "results": {
+            "summary": {
+              "analysis_type": "ttest",
+              "n_features_tested": 682,
+              "n_significant_raw": 238,
+              "n_significant_adj": 3,
+              "alpha": 0.05,
+              "fc_threshold": 1.0,
+              "top_features": [
+                {
+                  "feature": "LPC(17:0)",
+                  "p_value": 2.2356184393223587e-07,
+                  "fold_change": null
+                },
+                {
+                  "feature": "CE(17:0)",
+                  "p_value": 2.8086254470105996e-05,
+                  "fold_change": null
+                },
+                {
+                  "feature": "SM(20:1)",
+                  "p_value": 0.00010685140651579556,
+                  "fold_change": null
+                },
+                {
+                  "feature": "DAG(16:0/16:0)",
+                  "p_value": 0.0002996586840362871,
+                  "fold_change": 5.408741050362672
+                },
+                {
+                  "feature": "LPC(18:1)",
+                  "p_value": 0.0004409672162298287,
+                  "fold_change": null
+                },
+                {
+                  "feature": "CE(20:0)",
+                  "p_value": 0.0007257961690197592,
+                  "fold_change": -2.5635168103592414
+                },
+                {
+                  "feature": "LPC(15:0)",
+                  "p_value": 0.0007279770202467818,
+                  "fold_change": null
+                },
+                {
+                  "feature": "CE(15:0)",
+                  "p_value": 0.0008518138041134462,
+                  "fold_change": null
+                },
+                {
+                  "feature": "CE(22:2)",
+                  "p_value": 0.0009235766027430892,
+                  "fold_change": -3.315245109409288
+                },
+                {
+                  "feature": "CE(22:6)",
+                  "p_value": 0.0009941479315387343,
+                  "fold_change": null
+                }
+              ]
+            },
+            "files": {
+              "results_csv": "results/b2dc1eb8-a90d-4b4c-b7b1-2dcd7449d9c1/statistical/statistical_results.csv",
+              "volcano_png": "results/b2dc1eb8-a90d-4b4c-b7b1-2dcd7449d9c1/statistical/volcano_plot.png",
+              "pathway_stub": "results/b2dc1eb8-a90d-4b4c-b7b1-2dcd7449d9c1/statistical/pathway_analysis_stub.json"
+            },
+            "pathway_results": {
+              "status": "stub_implementation",
+              "todo_items": [
+                "Implement mummichog pathway analysis",
+                "Add pathway database connections",
+                "Generate enrichment visualizations",
+                "Export pathway results"
+              ],
+              "input_features": 682,
+              "significant_features": 238,
+              "timestamp": "2025-06-04T15:08:29.235239"
+            },
+            "n_features_tested": 682,
+            "n_significant": 238,
+            "top_significant_features": [
+              {
+                "feature": "LPC(17:0)",
+                "p_value": 2.2356184393223587e-07,
+                "fold_change": null,
+                "significant": true
+              },
+              {
+                "feature": "CE(17:0)",
+                "p_value": 2.8086254470105996e-05,
+                "fold_change": null,
+                "significant": true
+              },
+              {
+                "feature": "SM(20:1)",
+                "p_value": 0.00010685140651579556,
+                "fold_change": null,
+                "significant": true
+              },
+              {
+                "feature": "DAG(16:0/16:0)",
+                "p_value": 0.0002996586840362871,
+                "fold_change": 5.408741050362672,
+                "significant": true
+              },
+              {
+                "feature": "LPC(18:1)",
+                "p_value": 0.0004409672162298287,
+                "fold_change": null,
+                "significant": true
+              },
+              {
+                "feature": "CE(20:0)",
+                "p_value": 0.0007257961690197592,
+                "fold_change": -2.5635168103592414,
+                "significant": true
+              },
+              {
+                "feature": "LPC(15:0)",
+                "p_value": 0.0007279770202467818,
+                "fold_change": null,
+                "significant": true
+              },
+              {
+                "feature": "CE(15:0)",
+                "p_value": 0.0008518138041134462,
+                "fold_change": null,
+                "significant": true
+              },
+              {
+                "feature": "CE(22:2)",
+                "p_value": 0.0009235766027430892,
+                "fold_change": -3.315245109409288,
+                "significant": true
+              },
+              {
+                "feature": "CE(22:6)",
+                "p_value": 0.0009941479315387343,
+                "fold_change": null,
+                "significant": true
+              }
+            ]
+          },
+          "completed": true
+        }
+      },
+      "error": null
+    },
+    "scaling_method": "robust",
+    "log_transform": false
+  },
+  "minmax_logFalse": {
+    "analysis_id": "a3c0bf3a-1c87-45e2-bb87-75f6c1b4f9c9",
+    "status": {
+      "analysis_id": "a3c0bf3a-1c87-45e2-bb87-75f6c1b4f9c9",
+      "status": "completed",
+      "progress": 1.0,
+      "message": "Analysis completed successfully",
+      "started_at": "2025-06-04T15:08:31.250148",
+      "completed_at": "2025-06-04T15:08:33.353900",
+      "results": {
+        "data_info": {
+          "n_samples": 199,
+          "n_features": 727,
+          "file_ids": [
+            "58635e3b-1fda-4f97-9945-6c3179ab4405.txt"
+          ],
+          "metadata": {
+            "file_type": "mwtab",
+            "source_file": "uploads/58635e3b-1fda-4f97-9945-6c3179ab4405.txt",
+            "n_samples": 199,
+            "n_features": 727,
+            "study_id": "unknown",
+            "analysis_id": "unknown"
+          }
+        },
+        "statistical": {
+          "results": {
+            "summary": {
+              "analysis_type": "ttest",
+              "n_features_tested": 682,
+              "n_significant_raw": 238,
+              "n_significant_adj": 3,
+              "alpha": 0.05,
+              "fc_threshold": 1.0,
+              "top_features": [
+                {
+                  "feature": "LPC(17:0)",
+                  "p_value": 2.2356184393223465e-07,
+                  "fold_change": -0.47828251015646606
+                },
+                {
+                  "feature": "CE(17:0)",
+                  "p_value": 2.8086254470105668e-05,
+                  "fold_change": -0.39663902690072533
+                },
+                {
+                  "feature": "SM(20:1)",
+                  "p_value": 0.00010685140651579697,
+                  "fold_change": -0.3803785537237446
+                },
+                {
+                  "feature": "DAG(16:0/16:0)",
+                  "p_value": 0.00029965868403628655,
+                  "fold_change": 0.8176656398405346
+                },
+                {
+                  "feature": "LPC(18:1)",
+                  "p_value": 0.0004409672162298311,
+                  "fold_change": -0.31994983228794865
+                },
+                {
+                  "feature": "CE(20:0)",
+                  "p_value": 0.0007257961690197523,
+                  "fold_change": -0.5702044650748634
+                },
+                {
+                  "feature": "LPC(15:0)",
+                  "p_value": 0.0007279770202467832,
+                  "fold_change": -0.31103160903746335
+                },
+                {
+                  "feature": "CE(15:0)",
+                  "p_value": 0.000851813804113458,
+                  "fold_change": -0.3587698536651073
+                },
+                {
+                  "feature": "CE(22:2)",
+                  "p_value": 0.000923576602743091,
+                  "fold_change": -0.5241155433105416
+                },
+                {
+                  "feature": "CE(22:6)",
+                  "p_value": 0.0009941479315387295,
+                  "fold_change": -0.317535502242183
+                }
+              ]
+            },
+            "files": {
+              "results_csv": "results/a3c0bf3a-1c87-45e2-bb87-75f6c1b4f9c9/statistical/statistical_results.csv",
+              "volcano_png": "results/a3c0bf3a-1c87-45e2-bb87-75f6c1b4f9c9/statistical/volcano_plot.png",
+              "pathway_stub": "results/a3c0bf3a-1c87-45e2-bb87-75f6c1b4f9c9/statistical/pathway_analysis_stub.json"
+            },
+            "pathway_results": {
+              "status": "stub_implementation",
+              "todo_items": [
+                "Implement mummichog pathway analysis",
+                "Add pathway database connections",
+                "Generate enrichment visualizations",
+                "Export pathway results"
+              ],
+              "input_features": 682,
+              "significant_features": 238,
+              "timestamp": "2025-06-04T15:08:33.351480"
+            },
+            "n_features_tested": 682,
+            "n_significant": 238,
+            "top_significant_features": [
+              {
+                "feature": "LPC(17:0)",
+                "p_value": 2.2356184393223465e-07,
+                "fold_change": -0.47828251015646606,
+                "significant": true
+              },
+              {
+                "feature": "CE(17:0)",
+                "p_value": 2.8086254470105668e-05,
+                "fold_change": -0.39663902690072533,
+                "significant": true
+              },
+              {
+                "feature": "SM(20:1)",
+                "p_value": 0.00010685140651579697,
+                "fold_change": -0.3803785537237446,
+                "significant": true
+              },
+              {
+                "feature": "DAG(16:0/16:0)",
+                "p_value": 0.00029965868403628655,
+                "fold_change": 0.8176656398405346,
+                "significant": true
+              },
+              {
+                "feature": "LPC(18:1)",
+                "p_value": 0.0004409672162298311,
+                "fold_change": -0.31994983228794865,
+                "significant": true
+              },
+              {
+                "feature": "CE(20:0)",
+                "p_value": 0.0007257961690197523,
+                "fold_change": -0.5702044650748634,
+                "significant": true
+              },
+              {
+                "feature": "LPC(15:0)",
+                "p_value": 0.0007279770202467832,
+                "fold_change": -0.31103160903746335,
+                "significant": true
+              },
+              {
+                "feature": "CE(15:0)",
+                "p_value": 0.000851813804113458,
+                "fold_change": -0.3587698536651073,
+                "significant": true
+              },
+              {
+                "feature": "CE(22:2)",
+                "p_value": 0.000923576602743091,
+                "fold_change": -0.5241155433105416,
+                "significant": true
+              },
+              {
+                "feature": "CE(22:6)",
+                "p_value": 0.0009941479315387295,
+                "fold_change": -0.317535502242183,
+                "significant": true
+              }
+            ]
+          },
+          "completed": true
+        }
+      },
+      "error": null
+    },
+    "scaling_method": "minmax",
+    "log_transform": false
+  }
+}

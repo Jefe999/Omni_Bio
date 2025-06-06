@@ -1,0 +1,44 @@
+BIOMARKER DISCOVERY PACKAGE MANIFEST
+=====================================
+
+Project: NAFLD_Biomarker_Discovery
+Package: NAFLD_Biomarker_Discovery_20250604_130243
+Generated: 2025-06-04T13:02:43.192542
+
+CONTENTS:
+---------
+  documentation/
+  qc_analysis/
+    data/
+      pca_results.csv
+    plots/
+      qc_summary.png
+      tic_bpc_sample2.png
+      tic_bpc_sample1.png
+  data_files/
+    processed/
+      statistical_results.csv
+    metadata/
+      custom_metadata.json
+      pca_results.csv
+    raw/
+      ST002091_AN003415.txt
+  ml_models/
+    model_summary.json
+    trained_models/
+      logistic_regression_model.pkl
+    feature_importance/
+      feature_importance.csv
+    evaluation/
+      roc_curve.png
+  statistical_analysis/
+    results/
+      statistical_results.csv
+      pathway_analysis.csv
+    plots/
+      volcano_plot.png
+  reports/
+    html/
+      analysis_report.html
+    json/
+      analysis_summary.json

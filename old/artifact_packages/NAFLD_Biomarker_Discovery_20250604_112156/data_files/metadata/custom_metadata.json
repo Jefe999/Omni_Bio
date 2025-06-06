@@ -1,0 +1,20 @@
+{
+  "study_name": "NAFLD Lipidomics Biomarker Discovery",
+  "data_type": "LC-MS Lipidomics",
+  "sample_count": 199,
+  "feature_count": 727,
+  "analysis_date": "2024-01-15",
+  "platform": "OmniBio MVP",
+  "study_groups": [
+    "Control",
+    "Case"
+  ],
+  "significant_biomarkers": 3,
+  "top_biomarkers": [
+    "LPC(17:0)",
+    "CE(17:0)",
+    "SM(20:1)",
+    "DAG(16:0/16:0)",
+    "LPC(18:1)"
+  ]
+}

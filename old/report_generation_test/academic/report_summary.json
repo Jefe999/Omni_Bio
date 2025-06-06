@@ -1,0 +1,45 @@
+{
+  "generation_info": {
+    "title": "Metabolomics Biomarker Discovery: A Systematic Analysis",
+    "project_name": "NAFLD Metabolomics Research",
+    "author": "Research Laboratory",
+    "institution": "University Department of Biochemistry",
+    "date": "2025-06-04",
+    "generation_time": "2025-06-04 12:38:50",
+    "technical_level": "detailed"
+  },
+  "analysis_summary": {
+    "feature_extraction": {
+      "initial_features": 210,
+      "final_features": 56,
+      "samples": 30,
+      "reduction_percentage": 73.33333333333333,
+      "pipeline_steps": [
+        "Peak Detection",
+        "Feature Deduplication",
+        "Frequency Filtering",
+        "Score Filtering",
+        "Missing Value Imputation",
+        "Pareto Scaling"
+      ],
+      "quality_metrics": {
+        "missing_values_before": 15,
+        "missing_values_after": 0,
+        "feature_completeness": 100.0,
+        "sample_coverage": 100.0
+      }
+    },
+    "statistical_analysis": {
+      "significant_features_count": 8,
+      "total_features_tested": 56
+    },
+    "pathway_analysis": {
+      "total_significant_pathways": 12,
+      "databases_tested": [
+        "kegg",
+        "go_bp",
+        "go_mf"
+      ]
+    }
+  }
+}

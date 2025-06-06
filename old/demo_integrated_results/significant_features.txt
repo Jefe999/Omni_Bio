@@ -1,0 +1,10 @@
+mz_146.0579_rt_85.2
+mz_180.0634_rt_120.5
+feature_00279
+feature_00164
+feature_00299
+feature_00111
+feature_00149
+feature_00129
+feature_00147
+feature_00186

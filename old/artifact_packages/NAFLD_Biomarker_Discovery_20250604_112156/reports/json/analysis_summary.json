@@ -1,0 +1,67 @@
+{
+  "project_name": "NAFLD_Biomarker_Discovery",
+  "package_name": "NAFLD_Biomarker_Discovery_20250604_112156",
+  "generated_at": "2025-06-04T11:21:56.778547",
+  "analysis_summary": {
+    "total_samples": 199,
+    "total_features": 727,
+    "significant_features": 3,
+    "model_auc": 0.754,
+    "processing_time_minutes": 2.5
+  },
+  "artifacts_included": {
+    "qc_analysis": 4,
+    "statistical_analysis": 3,
+    "ml_models": 4,
+    "data_files": 3,
+    "metadata": 0,
+    "summary": 0
+  },
+  "package_structure": {
+    "root": [],
+    "documentation": [],
+    "qc_analysis": [],
+    "qc_analysis/data": [
+      "pca_results.csv"
+    ],
+    "qc_analysis/plots": [
+      "qc_summary.png",
+      "tic_bpc_sample2.png",
+      "tic_bpc_sample1.png"
+    ],
+    "data_files": [],
+    "data_files/processed": [
+      "statistical_results.csv"
+    ],
+    "data_files/metadata": [
+      "custom_metadata.json",
+      "pca_results.csv"
+    ],
+    "data_files/raw": [
+      "ST002091_AN003415.txt"
+    ],
+    "ml_models": [
+      "model_summary.json"
+    ],
+    "ml_models/trained_models": [
+      "logistic_regression_model.pkl"
+    ],
+    "ml_models/feature_importance": [
+      "feature_importance.csv"
+    ],
+    "ml_models/evaluation": [
+      "roc_curve.png"
+    ],
+    "statistical_analysis": [],
+    "statistical_analysis/results": [
+      "statistical_results.csv",
+      "pathway_analysis.csv"
+    ],
+    "statistical_analysis/plots": [
+      "volcano_plot.png"
+    ],
+    "reports": [],
+    "reports/html": [],
+    "reports/json": []
+  }
+}
