@@ -44,6 +44,18 @@ npm install
 npm run dev  # Runs on port 3000
 ```
 
+### 🤖 Agent Environment Setup
+For coding agents to set up the environment from scratch:
+```bash
+# Install Python dependencies (clean pip-compatible)
+pip install -r requirements.txt
+
+# Install frontend dependencies  
+cd omnibio-frontend && npm install
+```
+
+**Note**: The `requirements.txt` has been cleaned to remove conda-specific file paths and only contains standard pip package specifications.
+
 ### Port Management
 - **Backend**: http://localhost:8000 (API + Swagger docs at /docs)
 - **Frontend**: http://localhost:3000 (Next.js dev server)

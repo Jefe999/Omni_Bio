@@ -151,10 +151,9 @@ else
 fi
 
 # Create requirements.txt from current environment
-print_status "Generating requirements.txt from current environment..."
-conda activate metabo
-pip freeze > requirements.txt
-print_success "Generated requirements.txt with $(wc -l < requirements.txt) packages"
+print_status "Generating clean pip-compatible requirements.txt..."
+# Note: requirements.txt has been manually cleaned to remove conda file paths
+print_success "Using clean requirements.txt ($(wc -l < requirements.txt) packages)"
 
 # Verify setup by testing imports
 print_status "Verifying Python setup..."
@@ -205,6 +204,10 @@ echo "  ✅ Frontend dependencies: Next.js, React, Plotly"
 echo "  ✅ Development tools: pyright, black, flake8, eslint"
 echo "  ✅ Configuration files: .env, requirements.txt"
 echo "  ✅ Port cleanup script: kill_ports.sh"
+echo ""
+echo "🤖 Agent Setup Commands:"
+echo "  pip install -r requirements.txt"
+echo "  cd omnibio-frontend && npm install"
 echo ""
 echo "🚀 Quick Start Commands:"
 echo ""

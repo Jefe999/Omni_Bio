@@ -1,105 +1,156 @@
-alembic==1.16.1
-annotated-types==0.7.0
-anyio==4.9.0
-appnope @ file:///home/conda/feedstock_root/build_artifacts/appnope_1733332318622/work
-asttokens @ file:///home/conda/feedstock_root/build_artifacts/asttokens_1733250440834/work
-asyncpg==0.30.0
-Bottleneck @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_33wnmqdh9g/croot/bottleneck_1731058648266/work
-brain-isotopic-distribution==1.5.19
-Brotli @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_d7pp3g74_g/croot/brotli-split_1736182638718/work
-certifi==2025.4.26
-charset-normalizer==3.4.2
-click==8.2.1
-comm @ file:///home/conda/feedstock_root/build_artifacts/comm_1733502965406/work
-contourpy @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_6236u4rf19/croot/contourpy_1732540057596/work
-cycler @ file:///tmp/build/80754af9/cycler_1637851556182/work
-databases==0.9.0
-debugpy @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a5sm9dmihj/croot/debugpy_1736267550163/work
-decorator @ file:///home/conda/feedstock_root/build_artifacts/decorator_1740384970518/work
-dill==0.4.0
-docopt==0.6.2
-et_xmlfile==2.0.0
-exceptiongroup @ file:///home/conda/feedstock_root/build_artifacts/exceptiongroup_1746947292760/work
-executing @ file:///home/conda/feedstock_root/build_artifacts/executing_1745502089858/work
+# OmniBio Biomarker Analysis - Python Dependencies
+# Clean pip-compatible requirements (no conda file paths)
+
+# Core API Framework
 fastapi==0.115.12
-fonttools @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_706ove9ndu/croot/fonttools_1737039799828/work
-greenlet==3.2.2
-h11==0.16.0
-idna==3.10
-importlib_metadata @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_importlib-metadata_1747934053/work
-ipykernel @ file:///Users/runner/miniforge3/conda-bld/ipykernel_1719845458456/work
-ipython @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_ipython_1745672166/work
-ipython_pygments_lexers @ file:///home/conda/feedstock_root/build_artifacts/ipython_pygments_lexers_1737123620466/work
-jedi @ file:///home/conda/feedstock_root/build_artifacts/jedi_1733300866624/work
-joblib @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_825_m6wwnf/croot/joblib_1718217221510/work
-jupyter_client @ file:///home/conda/feedstock_root/build_artifacts/jupyter_client_1733440914442/work
-jupyter_core @ file:///home/conda/feedstock_root/build_artifacts/jupyter_core_1748333051527/work
-kiwisolver @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_92lgswl3y6/croot/kiwisolver_1737040154211/work
-lxml==5.4.0
-Mako==1.3.10
-MarkupSafe==3.0.2
-matplotlib==3.10.0
-matplotlib-inline @ file:///home/conda/feedstock_root/build_artifacts/matplotlib-inline_1733416936468/work
-ms_peak_picker==0.1.46
-mwtab==1.2.5
-narwhals==1.41.0
-nest_asyncio @ file:///home/conda/feedstock_root/build_artifacts/nest-asyncio_1733325553580/work
-numexpr @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_ffj5ghzq2u/croot/numexpr_1730215943719/work
-numpy==2.2.6
-openpyxl==3.1.5
-packaging @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_15t4xe1fp0/croot/packaging_1734472125760/work
-pandas @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_d6o0iypzho/croot/pandas_1732735102618/work/dist/pandas-2.2.3-cp311-cp311-macosx_10_15_x86_64.whl#sha256=1ae124533ea6f6dd1d1aedc90129c1002a1895eb41a75753bf81669993425922
-parso @ file:///home/conda/feedstock_root/build_artifacts/parso_1733271261340/work
-patsy @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_96zknywdq_/croot/patsy_1738159936109/work
-pexpect @ file:///home/conda/feedstock_root/build_artifacts/pexpect_1733301927746/work
-pickleshare @ file:///home/conda/feedstock_root/build_artifacts/pickleshare_1733327343728/work
-pillow @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a48h7ifhf6/croot/pillow_1744613605363/work
-platformdirs @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_platformdirs_1746710438/work
-plotly==6.1.2
-prompt_toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1744724089886/work
-psims==1.3.5
-psutil @ file:///Users/runner/miniforge3/conda-bld/psutil_1740663183952/work
-ptyprocess @ file:///home/conda/feedstock_root/build_artifacts/ptyprocess_1733302279685/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl#sha256=92c32ff62b5fd8cf325bec5ab90d7be3d2a8ca8c8a3813ff487a8d2002630d1f
-pure_eval @ file:///home/conda/feedstock_root/build_artifacts/pure_eval_1733569405015/work
+uvicorn==0.34.3
+starlette==0.46.2
+python-multipart==0.0.20
+
+# Database & Authentication
+sqlalchemy==2.0.41
+alembic==1.16.1
+asyncpg==0.30.0
+databases==0.9.0
 pydantic==2.11.5
 pydantic-settings==2.9.1
-pydantic_core==2.33.2
-Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1736243443484/work
-pymzml @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_pymzml_1740580057/work
-pynumpress==0.0.9
+pydantic-core==2.33.2
+
+# Data Science & ML Core
+numpy==2.2.6
+pandas==2.2.3
+scipy==1.15.3
+scikit-learn==1.6.1
+statsmodels==0.14.4
+
+# Visualization
+matplotlib==3.10.0
+seaborn==0.13.2
+plotly==6.1.2
+
+# Mass Spectrometry & Metabolomics
+mwtab==1.2.5
+pymzml==2.5.11
 pyopenms==3.4.0
-pyparsing @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_32bhy1idl3/croot/pyparsing_1731445537860/work
 pyteomics==4.7.5
-python-dateutil @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_efk5_uakg8/croot/python-dateutil_1716495742183/work
-python-dotenv==1.1.0
-python-idzip==0.3.9
-python-multipart==0.0.20
-pytz @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_244ln7biq9/croot/pytz_1713974320727/work
-PyYAML==6.0.2
-pyzmq @ file:///Users/runner/miniforge3/conda-bld/pyzmq_1666828680984/work
-pyzstd==0.17.0
-regex @ file:///Users/runner/miniforge3/conda-bld/regex_1730952211198/work
-requests==2.32.3
+ms-peak-picker==0.1.46
+brain-isotopic-distribution==1.5.19
+
+# Data Processing
+openpyxl==3.1.5
+lxml==5.4.0
+joblib==1.4.2
 retrying==1.3.4
 schema==0.7.7
-scikit-learn @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_86qebg7897/croot/scikit-learn_1737988767278/work
-scipy @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_1bvg93f7ku/croot/scipy_1747238043368/work/dist/scipy-1.15.3-cp311-cp311-macosx_10_15_x86_64.whl#sha256=3266612f5c034d137533a0b98de86ed9f77be89c6095ccbc93a8d5d2b7237692
-seaborn @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_3af1w05eta/croot/seaborn_1741210331958/work
-six @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_2e3n1z57yz/croot/six_1744271514562/work
-sniffio==1.3.1
-SQLAlchemy==2.0.41
-stack_data @ file:///home/conda/feedstock_root/build_artifacts/stack_data_1733569443808/work
-starlette==0.46.2
-statsmodels @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_3cm7j88jdw/croot/statsmodels_1734018881884/work
-threadpoolctl @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_83z9rmqojb/croot/threadpoolctl_1719407811780/work
-tornado @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_f99tuk9fxr/croot/tornado_1747918064773/work
-tqdm==4.67.1
-traitlets @ file:///home/conda/feedstock_root/build_artifacts/traitlets_1733367359838/work
-typing-inspection==0.4.1
-typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_typing_extensions_1744302253/work
-tzdata @ file:///croot/python-tzdata_1746123641790/work
-unicodedata2 @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_c9zunc70re/croot/unicodedata2_1736544422992/work
+
+# Configuration & Environment
+python-dotenv==1.1.0
+pyyaml==6.0.2
+click==8.2.1
+
+# Jupyter & Development
+jupyter-core==5.8.1
+jupyter-client==8.6.3
+ipython==9.2.0
+ipykernel==6.29.5
+
+# Utilities
+requests==2.32.3
 urllib3==2.4.0
-uvicorn==0.34.3
-wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1733231326287/work
-zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1748277385522/work
+certifi==2025.4.26
+charset-normalizer==3.4.2
+idna==3.10
+tqdm==4.67.1
+psutil==7.0.0
+
+# Type Hints & Annotations
+typing-extensions==4.13.2
+typing-inspection==0.4.1
+annotated-types==0.7.0
+
+# Async & Concurrency
+anyio==4.9.0
+sniffio==1.3.1
+h11==0.16.0
+greenlet==3.2.2
+
+# Cryptography & Security
+markupsafe==3.0.2
+mako==1.3.10
+
+# Development Tools (Optional)
+# black==24.0.0
+# flake8==7.0.0
+# isort==5.12.0
+# mypy==1.8.0
+# pyright==1.1.350
+
+# Scientific Computing Support
+bottleneck==1.4.2
+numexpr==2.10.1
+threadpoolctl==3.5.0
+narwhals==1.41.0
+
+# Data Compression
+brotli==1.0.9
+pyzstd==0.17.0
+python-idzip==0.3.9
+pynumpress==0.0.9
+
+# Additional Scientific Libraries
+et-xmlfile==2.0.0
+dill==0.4.0
+docopt==0.6.2
+psims==1.3.5
+
+# Time & Date Handling
+python-dateutil==2.9.0
+pytz==2024.1
+tzdata==2025.2
+
+# Text Processing
+regex==2024.11.6
+six==1.17.0
+unicodedata2==15.1.0
+
+# System & Platform
+appnope==0.1.4
+wcwidth==0.2.13
+platformdirs==4.3.8
+packaging==24.2
+
+# Plotting Dependencies
+contourpy==1.3.1
+cycler==0.11.0
+fonttools==4.55.3
+kiwisolver==1.4.8
+pillow==11.1.0
+pyparsing==3.2.0
+
+# Interactive Computing
+asttokens==3.0.0
+comm==0.2.2
+debugpy==1.8.11
+decorator==5.2.1
+executing==2.2.0
+ipython-pygments-lexers==1.1.1
+jedi==0.19.2
+matplotlib-inline==0.1.7
+nest-asyncio==1.6.0
+parso==0.8.4
+pexpect==4.9.0
+pickleshare==0.7.5
+prompt-toolkit==3.0.51
+ptyprocess==0.7.0
+pure-eval==0.2.3
+pygments==2.19.1
+pyzmq==24.0.1
+stack-data==0.6.3
+tornado==6.5
+traitlets==5.14.3
+
+# Statistical Analysis
+patsy==1.0.1
+exceptiongroup==1.3.0
+importlib-metadata==8.7.0
+zipp==3.22.0
